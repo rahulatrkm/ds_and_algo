@@ -1,0 +1,17 @@
+ bool isValidBST(Node*root , long min , long max)
+    {
+       
+                if(root==NULL) return true;
+                if (root->data>= max || root->data<=min) return false;
+                return isValidBST(root->left , min , root->data) && 
+                isValidBST(root->right , root->data , max);
+            
+    }
+
+    //Function to check whether a Binary Tree is BST or not.
+    bool isBST(Node* root) 
+    {
+       
+        return isValidBST(root , LONG_MIN , LONG_MAX );
+    }
+    

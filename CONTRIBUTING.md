@@ -8,7 +8,7 @@ Happy coding !!
 
 
 make sure your repositories are related to this...
-like if your repo is rel;ated to dsa then make sure upload your repo in dsa folder if not available then make folder by "\" symbol.
+like if your repo is related to dsa then make sure upload your repo in dsa folder if not available then make folder by "\" symbol.
 ex:-i made a hello world program in c++ language then ,
 if C++ folder didnt made then i have to submit repo like this:-C/hello_World.cpp
 like this....hope you will understand

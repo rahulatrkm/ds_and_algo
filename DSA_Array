@@ -1,0 +1,25 @@
+What is Array?
+
+The array is a fixed-size sequenced collection of variables belonging to the same data types. The array has adjacent 
+memory locations to store values. Since the array provides a convenient structure for representing data, it falls under 
+the category of the data structures in C. The syntax for declaring array are:
+data_type array_name [array_size];
+
+Following are the essential terminologies used for understanding the concepts of Arrays:
+Element: Every item stored in an array is termed as an element
+Index: each memory location of an element in an array is denoted by a numerical index which is used for identifying the element
+
+When a program works with many variables which hold comparable forms of data, then organizational and managerial difficulty 
+quickly arise. If you are not using arrays, then the number of variables used will increase. Using the array, the number of 
+variables reduces, i.e., you can use a single name for multiple values, you need to deal with its index values (starting from 0 
+to n).
+
+Basic Operations-
+
+There is some specific operation that can be performed or those that are supported by the array. 
+These are:
+1.Traversing: It prints all the array elements one after another.
+2.Inserting: It adds an element at given index.
+3.Deleting: It is used to delete an element at given index.
+4.Searching: It searches for an element(s) using given index or by value.
+5.Updating: It is used to update an element at given index.

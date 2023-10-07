@@ -6,4 +6,4 @@ return i;
 }
     return nums.length;
 }
-}
+
